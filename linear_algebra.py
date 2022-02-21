@@ -63,6 +63,10 @@ def dot(v: Vector, w: Vector) -> float:
 
   return sum(v_i * w_i for v_i, w_i in zip(v,w))
 
+def sum_of_squares(v: Vector) -> float:
+    """Returns v_1 * v_1 + ... + v_n * v_n"""
+    return dot(v, v)
+
 assert add([1, 2, 3], [10,9,8]) == [11,11,11], "something wrong with add()"
 assert subtract([11,11,11], [1, 2, 3]) == [10,9,8], "trouble with subtract()"
 assert vector_sum([[3,4], [5,6], [7,8]]) == [15, 18], "vector_sum() problem"
