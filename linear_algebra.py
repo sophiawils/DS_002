@@ -8,6 +8,12 @@ Original file is located at
 """
 
 from typing import List
+import math
+
+# local code imports
+
+# other imports
+import matplotlib.pyplot as plt
 
 Vector = List[float]
 
