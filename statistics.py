@@ -3,6 +3,12 @@ import matplotlib.pyplot as plt
 from typing import List
 import math
 
+from .linear_algebra import sum_of_squares
+from .linear_algebra import dot
+
+# other imports
+import matplotlib.pyplot as 
+
 
 # Data
 num_friends = [100.0,49,41,40,25,21,21,19,19,18,18,16,
